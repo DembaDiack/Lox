@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 
-int main(void){
+int main(void)
+{
 
-    
-    printf("Hello,World\n");
+    char a[] = "demba";
+    char b[] = "demba";
 
+    printf("%d", strcmp(a, b));
 
     return 1;
 }
